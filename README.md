@@ -60,10 +60,24 @@ This project underscores YOLOv4’s effectiveness in real-world applications, pa
 
 #### Video Demonstration:
 <video width="600" controls>
-  <source src="Output\output.mp4" type="video/mp4">
+  <source src="Output/output.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
+---
+
+## Dataset Description:
+The dataset used in this project is available on [Kaggle](https://www.kaggle.com/datasets/chetan0361/ship-dataset-with-annotations/data). It consists of **aerial images of ships** with corresponding **annotations in XML format**. Each image is paired with an XML file that provides detailed information about the location and class of the detected ships. The images are in **PNG format**, and the annotations follow the **Pascal VOC format**.
+
+### Dataset Structure:
+- **Images**: The images are in **PNG format** (e.g., `boat1.png`, `boat2.png`), depicting ships from various angles and scales.
+- **Annotations**: Each image has a corresponding **XML file** (e.g., `boat1.xml`, `boat2.xml`), which contains information about the object class (e.g., "boat") and bounding box coordinates that specify the position of ships within the image.
+
+### XML Annotation Format:
+The XML files contain the following key elements:
+- **Filename**: The name of the image file (e.g., `boat1.png`).
+- **Size**: The dimensions of the image (height, width, depth).
+- **Object**: Each detected ship is labeled with its class name and the bounding box coordinates (xmin, ymin, xmax, ymax), which describe the region of interest for the detected object.
 
 ---
 
