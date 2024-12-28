@@ -1,0 +1,11 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/content/drive/MyDrive/BE_Project/darknet/data/images/boat601.png", 
+ "objects": [ 
+  {"class_id":0, "name":"boat", "relative_coordinates":{"center_x":0.503253, "center_y":0.829798, "width":0.309495, "height":0.175211}, "confidence":0.977700}, 
+  {"class_id":0, "name":"boat", "relative_coordinates":{"center_x":0.555776, "center_y":0.586520, "width":0.197536, "height":0.065633}, "confidence":0.951390}, 
+  {"class_id":0, "name":"boat", "relative_coordinates":{"center_x":0.022614, "center_y":0.775534, "width":0.041972, "height":0.078593}, "confidence":0.493056}
+ ] 
+}
+]

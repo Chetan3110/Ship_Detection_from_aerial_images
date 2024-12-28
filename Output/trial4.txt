@@ -1,0 +1,9 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/content/drive/MyDrive/BE_Project/darknet/data/images/boat401.png", 
+ "objects": [ 
+  {"class_id":0, "name":"boat", "relative_coordinates":{"center_x":0.477876, "center_y":0.477465, "width":0.099432, "height":0.077717}, "confidence":0.912030}
+ ] 
+}
+]

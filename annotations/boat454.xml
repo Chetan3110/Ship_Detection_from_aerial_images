@@ -1,0 +1,24 @@
+
+<annotation>
+    <folder>images</folder>
+    <filename>boat454.png</filename>
+    <size>
+        <width>476</width>
+        <height>476</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>boat</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>185</xmin>
+            <ymin>151</ymin>
+            <xmax>317</xmax>
+            <ymax>296</ymax>
+        </bndbox>
+    </object>
+</annotation>
